@@ -9,9 +9,8 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/SKILL_LINK_WEB">
       <Routes>
-        {/* Main layout with sticky header and premium dark footer */}
         <Route path="/" element={<RootLayout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
